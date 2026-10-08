@@ -4,23 +4,6 @@ nombres de los integrantes del trabajo: Alvaro Samuel Vallejo Rodriguez, Johan S
 
 Programa en Java para representar el servicio médico domiciliario de Medihome. El proyecto parte del diagrama realizado en clase y completa las clases y relaciones del enunciado.
 
-## Ejecutar el programa
-
-Se necesita un **JDK 11 o superior**. No requiere Maven ni librerías externas.
-
-En Windows, abrir `ejecutar.bat`. También se puede ejecutar desde una terminal ubicada en la carpeta del proyecto:
-
-```powershell
-javac -encoding UTF-8 --release 11 -d bin src/*.java
-java -Dfile.encoding=UTF-8 -cp bin Main
-```
-
-Si se usa un IDE, abrir la carpeta del proyecto, seleccionar el JDK y ejecutar `src/Main.java`.
-
-`Main` crea una empresa, un paciente, un profesional y un equipo. Después instancia un servicio domiciliario, lo programa, crea su atención médica y registra una medición de signos vitales. Usa getters y setters y finaliza mostrando **el reporte de la atención prestada al paciente**.
-
-Los datos del ejemplo son ficticios. El programa funciona en memoria: al cerrarlo no guarda registros. Las notificaciones se muestran en consola.
-
 ## Archivos de la entrega
 
 | Archivo o carpeta | Contenido |
@@ -75,24 +58,3 @@ Del diagrama original se conservaron los nombres `EquipoMedico` y `MedicionSigno
 Las imágenes exportadas conservan la marca de agua de la licencia de evaluación de Visual Paradigm utilizada.
 
 Para editarlo, abrir `diagramas/diagrama-de-clases.vpp` en Visual Paradigm.
-
-## Probar las reglas del modelo
-
-Después de compilar las clases del programa:
-
-```powershell
-javac -encoding UTF-8 --release 11 -cp bin -d bin tests/PruebasMedihome.java
-java -Dfile.encoding=UTF-8 -cp bin PruebasMedihome
-```
-
-La ejecución correcta termina con:
-
-```text
-PRUEBAS CORRECTAS: 36 comprobaciones.
-```
-
-Las pruebas comprueban las relaciones, el cambio de equipo, los estados, las fechas, la unicidad de códigos, las mediciones y el contenido del reporte.
-
-## Repositorio para entregar
-
-[taller-dise-o-de-software-caso-medihome](https://github.com/samuelvallejo/taller-dise-o-de-software-caso-medihome)
