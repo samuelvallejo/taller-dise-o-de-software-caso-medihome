@@ -1,0 +1,25 @@
+Paciente registrado: María Torres
+Equipo del profesional: Equipo Centro
+[Notificación al paciente María Torres] Servicio SD-001: Programado.
+[Notificación al profesional Carlos Pérez] Servicio SD-001: Programado.
+[Notificación al paciente María Torres] Servicio SD-001: En atención.
+[Notificación al profesional Carlos Pérez] Servicio SD-001: En atención.
+[Notificación al paciente María Torres] Servicio SD-001: Finalizado.
+[Notificación al profesional Carlos Pérez] Servicio SD-001: Finalizado.
+
+========== REPORTE DE ATENCIÓN MEDIHOME ==========
+Empresa: Medihome
+Paciente: María Torres | Identificación: 1001001001
+Servicio: SD-001
+Programado: 07/10/2026 09:00
+Dirección: Carrera 5 # 12-40
+Motivo: Valoración domiciliaria de seguimiento
+Estado: Finalizado
+Profesional: Carlos Pérez | Especialidad: Medicina familiar | Registro: RM-12345
+Inicio: 07/10/2026 09:05
+Finalización: 07/10/2026 09:40
+Observaciones clínicas: Paciente consciente y orientada. Se registran signos vitales.
+Recomendaciones: Seguir las indicaciones recibidas durante la consulta.
+Mediciones de signos vitales: 1
+  07/10/2026 09:10 | Temperatura: 36.8 °C | FC: 76 lpm | PA: 120/80 mmHg | SpO2: 98.0 %
+================================================

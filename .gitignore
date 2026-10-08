@@ -1,0 +1,6 @@
+bin/
+*.class
+*.vpp.lck
+.vscode/
+.idea/
+*.vpp.bak*
